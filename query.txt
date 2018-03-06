@@ -1,0 +1,1 @@
+SELECT NomProveedor as Proveedor, Producto, Tipo , Fecha, CantidadEntrada + CantidadSalida as Cantidad, Factura, Cheque from Movimientos where day(fecha) & '/' & month(fecha) & '/' & year(fecha) between '23/05/2014' and '23/05/2014'
